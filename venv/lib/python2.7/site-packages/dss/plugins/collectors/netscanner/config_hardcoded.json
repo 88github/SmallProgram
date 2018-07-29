@@ -1,0 +1,17 @@
+{
+  "name": "netscanner",
+  "enabled": false,
+  "type": "multi",
+ 
+  "exe_path": "tshark",
+  "is_standalone": true,
+  "flags": "-i %interface% -w",
+  "arguments": [
+    ["\\Device\\NPF_{29BB23BA-6764-4DB3-9556-79ECCB1BC2E0}", "Bluetooth Network Connection 2"],
+    ["\\Device\\NPF_{A54A2C6-26DF-4E64-A4B2-2869ED569C23}", "Wi-Fi"]
+  ],
+  "output": "raw",
+  "ext": ".pcap",
+  
+  "parser": "plugins.netscanner.parser"
+}

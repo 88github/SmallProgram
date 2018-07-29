@@ -1,0 +1,91 @@
+{
+    "Archiving": {
+        "Archive Size": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "0"
+        },
+        "Archive Time Interval": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "5"
+        },
+        "File Format": {
+            "Field Type": "Option",
+            "Selected": "tar",
+            "Values": [
+                "zip",
+                "tar"
+            ]
+        },
+        "Size Check Period": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "0"
+        }
+    },
+    "General": {
+        "Arguments": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "?"
+        },
+        "Exe Path": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "tshark"
+        },
+        "Extension": {
+            "Field Type": "Option",
+            "Selected": ".pcap",
+            "Values": [
+                ".txt",
+                ".pcap"
+            ]
+        },
+        "Flags": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "-i \\Device\\NPF_{EC9A82BA-3169-41F0-A45D-1B03A7311955} -w"
+        },
+        "Is Enabled": {
+            "Field Type": "Option",
+            "Selected": true,
+            "Values": [
+                true,
+                false
+            ]
+        },
+        "Is Standalone": {
+            "Field Type": "Option",
+            "Selected": true,
+            "Values": [
+                true,
+                false
+            ]
+        },
+        "Output": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "raw"
+        },
+        "Parser": {
+            "Field Type": "Entry",
+            "Is Path Type": true,
+            "Value": "plugins.parsers.tshark.tshark_parser,TSharkParser"
+        },
+        "Plugin Name": {
+            "Field Type": "Label",
+            "Value": "netscanner"
+        },
+        "Type": {
+            "Field Type": "Option",
+            "Selected": "plugin",
+            "Values": [
+                "plugin",
+                "multi",
+                "schedulable"
+            ]
+        }
+    }
+}

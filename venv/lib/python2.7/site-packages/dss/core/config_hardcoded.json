@@ -1,0 +1,12 @@
+{
+    "plugins": {
+        "directory": "plugins"
+    },
+    "archiver": {
+        "fileFormat": "zip",
+        "archiverSize": 0,
+        "sizeCheckPeriod": 0,
+        "archiverTimeInterval": 7
+    },
+    "parsed": "http/parsed/events.json"
+}

@@ -1,0 +1,91 @@
+{
+    "Archiving": {
+        "Archive Size": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "0"
+        },
+        "Archive Time Interval": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "5"
+        },
+        "File Format": {
+            "Field Type": "Option",
+            "Selected": "tar",
+            "Values": [
+                "zip",
+                "tar"
+            ]
+        },
+        "Size Check Period": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "0"
+        }
+    },
+    "General": {
+        "Exe Path": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "nmap.exe"
+        },
+        "Extension": {
+            "Field Type": "Option",
+            "Selected": ".txt",
+            "Values": [
+                ".txt",
+                ".pcap"
+            ]
+        },
+        "Flags": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "-F 127.0.0.1 -oG"
+        },
+        "Is Enabled": {
+            "Field Type": "Option",
+            "Selected": true,
+            "Values": [
+                true,
+                false
+            ]
+        },
+        "Is Standalone": {
+            "Field Type": "Option",
+            "Selected": true,
+            "Values": [
+                true,
+                false
+            ]
+        },
+        "Output": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "raw"
+        },
+        "Parser": {
+            "Field Type": "Entry",
+            "Is Path Type": true,
+            "Value": "plugins/nmap/parser.py"
+        },
+        "Plugin Name": {
+            "Field Type": "Label",
+            "Value": "nmap"
+        },
+        "Schedule": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": 5
+        },
+        "Type": {
+            "Field Type": "Option",
+            "Selected": "schedulable",
+            "Values": [
+                "plugin",
+                "multi",
+                "schedulable"
+            ]
+        }
+    }
+}

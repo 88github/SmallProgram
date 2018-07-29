@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+cd /usr/local/lib/python2.7/dist-packages/dss
+python dss_shell.py

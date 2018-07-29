@@ -1,0 +1,14 @@
+{ 
+  "name": "nmap",
+  "enabled": false,
+  "type": "schedulable",
+  "schedule" : { "seconds": 5 },
+
+  "exe_path": "nmap.exe",
+  "is_standalone": true,
+  "flags": "-F 127.0.0.1 -oG",
+  "output": "raw",
+  "ext": ".txt",
+
+  "parser": "plugins.nmap.parser"
+}

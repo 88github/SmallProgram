@@ -1,0 +1,81 @@
+{
+    "Archiving": {
+        "Archive Size": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "0"
+        },
+        "Archive Time Interval": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "0"
+        },
+        "File Format": {
+            "Field Type": "Option",
+            "Selected": "tar",
+            "Values": [
+                "zip",
+                "tar"
+            ]
+        },
+        "Size Check Period": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "0"
+        }
+    },
+    "General": {
+        "Extension": {
+            "Field Type": "Option",
+            "Selected": ".txt",
+            "Values": [
+                ".txt",
+                ".pcap"
+            ]
+        },
+        "Flags": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": ""
+        },
+        "Is Enabled": {
+            "Field Type": "Option",
+            "Selected": true,
+            "Values": [
+                true,
+                false
+            ]
+        },
+        "Is Standalone": {
+            "Field Type": "Option",
+            "Selected": true,
+            "Values": [
+                true,
+                false
+            ]
+        },
+        "Output": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "raw"
+        },
+        "Parser": {
+            "Field Type": "Entry",
+            "Is Path Type": true,
+            "Value": "plugins/parsers/parser.py"
+        },
+        "Plugin Name": {
+            "Field Type": "Label",
+            "Value": "parsers"
+        },
+        "Type": {
+            "Field Type": "Option",
+            "Selected": "schedulable",
+            "Values": [
+                "plugin",
+                "multi",
+                "schedulable"
+            ]
+        }
+    }
+}

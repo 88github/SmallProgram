@@ -1,0 +1,34 @@
+{
+    "Archiving": {
+        "Archive Size": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "0"
+        },
+        "Archive Time Interval": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "5"
+        },
+        "File Format": {
+            "Field Type": "Option",
+            "Selected": "tar",
+            "Values": [
+                "zip",
+                "tar"
+            ]
+        },
+        "Size Check Period": {
+            "Field Type": "Entry",
+            "Is Path Type": false,
+            "Value": "0"
+        }
+    },
+    "General": {
+        "Parser": {
+            "Field Type": "Entry",
+            "Is Path Type": true,
+            "Value": "http/parsed/events.json"
+        }
+    }
+}

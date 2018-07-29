@@ -1,0 +1,12 @@
+{
+  "name": "manualscreenshot",
+  "enabled": false,
+  "type": "plugin",
+
+  "exe_path": "python takeshoot.py ",
+  "is_standalone": true,
+  "flags": "",
+  "output": "raw",
+
+  "parser": "plugins.manualscreenshot.parser"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "pykeylogger",
+  "enabled": true,
+  "type": "plugin",
+
+  "exe_path": "python keylogger.pyw",
+  "is_standalone": true,
+  "flags": "",
+  "output": "raw",
+  "parser": "plugins.pykeylogger.parser",
+  
+   "_comment": ["PyKeylogger output path can be changed in init file"]
+}

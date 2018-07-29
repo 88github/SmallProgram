@@ -1,0 +1,17 @@
+{
+  "name": "tshark",
+  "enabled": false,
+  "type": "plugin",
+
+  "exe_path": "tShark.exe",
+  "is_standalone": true,
+  "flags": "-i \\Device\\NPF_{A541A2C6-26DF-4E64-A4B2-2869ED569C23} -w",
+  "output": "raw",
+  "ext": ".pcap",
+
+  "parser": "plugins.tshark.parser",
+
+  "_comment": ["Output needs to be specified after the -w flag.",
+    "The device number below needs to be specific to the machine",
+    "The device number can be retrieved with 'tshark -D' "]
+}
